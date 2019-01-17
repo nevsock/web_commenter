@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "web_commenter",
+  "version": "1.0.0",
+
+  "description": "webページにコメント欄を設ける拡張",
+  "icons": {
+    "16": "logo4_a.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["http://*/*, https://*/*"],
+      "css": ["web_commenter.css"],
+      "js": ["web_commenter.js"]
+    }
+  ]
+}
