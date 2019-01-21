@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>web_commenter</title>
+  <link href="./web_commenter.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
+</head>
+<body>
+  <div id="frame">
+    <div id="channel_option_area">
+      <span id="sorting_letter">sorting...</span>
+      <div class="now_picking_area">
+        <span class="channel_card">#global</span>
+        <span class="channel_card">#programing</span>
+      </div>
+      <div class="adding_option_channel">
+        <input type="text" value="serch channels" class="channel_textbox" id="t_for_serch">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 15" class="adding_icon" id="b_for_serch"><defs><style>.a{fill:none;stroke:#e6614a;stroke-linecap:round;stroke-width:3px;}</style></defs><g transform="translate(-1885.589 -54.589)"><line class="a" y2="12" transform="translate(1893.147 56.089)"/><line class="a" x1="12" transform="translate(1887.089 62.5)"/></g></svg>
+      </div>
+    </div>
+    <div id="comment_area"></div>
+    <div id="comment_sending_area">
+      <div class="now_picking_area">
+        <span class="channel_card">#global</span>
+        <span class="channel_card">#programing</span>
+      </div>
+      <div class="adding_option_channel">
+        <input type="text" value="serch channels" class="channel_textbox" id="t_for_send">
+        <span class="adding_icon_area" id="b_for_send">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 15" class="adding_icon" id="b_for_send"><defs><style>.a{fill:none;stroke:#e6614a;stroke-linecap:round;stroke-width:3px;}</style></defs><g transform="translate(-1885.589 -54.589)"><line class="a" y2="12" transform="translate(1893.147 56.089)"/><line class="a" x1="12" transform="translate(1887.089 62.5)"/></g></svg>
+      </div>
+      <div id="comment_writing_area">
+        <textarea id="comment_textbox"></textarea>
+        <span id="comment_sending">
+          <img src="./assets/パス 3@2x.png" id="sending_icon">
+        </span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

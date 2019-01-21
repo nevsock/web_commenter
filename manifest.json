@@ -8,11 +8,9 @@
     "16": "logo4_a.png"
   },
 
-  "content_scripts": [
+  "browser_action": [
     {
-      "matches": ["https://scrapbox.io/*"],
-      "css": ["web_commenter.css"],
-      "js": ["web_commenter.js"]
+      "default_popup": "web_commenter.html"
     }
   ]
 }
