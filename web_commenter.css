@@ -85,6 +85,12 @@ body {
   width: 344px;
   padding-top: 16px;
   bottom: 0;
+  background-color: #493942;
+}
+
+.channel_for_writing {
+  color: white;
+  background-color: #9F8964;
 }
 
 #comment_writing_area {
